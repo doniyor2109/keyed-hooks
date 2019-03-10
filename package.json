@@ -1,0 +1,21 @@
+{
+  "name": "keyed-hooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "enzyme": "^3.9.0",
+    "jest": "^24.1.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "shallow-equal": "^1.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
